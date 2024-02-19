@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Vinod Pandey and I'm a Computer Science Undergrad, from Dehradun India.</p>
+<p align="left">My name is Vinod Pandey,Currently I'm pursuing my bachelor's in Computer Science and Engineering at @GraphicEraHillUniversity Dehradun.</p>
 
 ###
 
