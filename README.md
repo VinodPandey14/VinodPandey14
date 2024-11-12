@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Data structures and Algorithm<br>🎲 C/C++ , Java, Javascript<br>📚 I'm currently learning Web Development<br>🎯 Goals:  Aspiring Software Engineer</p>
+<p align="left">✨ Data structures and Algorithm<br>🎲 C/C++ , Java, Javascript<br>📚 Web Development<br>🎯 <br> Machine Learning and AI <br>Goals:  Aspiring Software Engineer</p>
 
 ###
 
