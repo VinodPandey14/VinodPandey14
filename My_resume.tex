@@ -1,19 +1,19 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[top=0.20in, bottom=0.30in, left=0.55in, right=0.85in]{geometry}
+\usepackage[top=0.75in, bottom=0.30in, left=0.55in, right=0.85in]{geometry}
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
 \usepackage{url}
 \usepackage{palatino}
 \usepackage{tabularx}
 \usepackage{hyperref}
-\fontfamily{SansSerif}
-\selectfont
-
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{color}
+\usepackage{fontawesome} % For icons
+\usepackage[none]{hyphenat}
+\sloppy
+
 \definecolor{mygrey}{gray}{0.75}
-% \textheight=9.75in
 \raggedbottom
 
 \setlength{\tabcolsep}{0in}
@@ -30,22 +30,16 @@
 \begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
 	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
 \end{tabular*}\vspace{-8pt}}
-% ... [Keep all previous preamble as is] ...
 
 \begin{document}
-\hspace{0.5cm}\\[-0.2cm]
 
-\textbf{Vinod Chandra} \\
-\indent Email-id : \textbf{\url{itsvinod14@gmail.com}} \\
-\indent Mobile No.: \textbf{+917455988459} \\
-\indent \textbf{\href{https://github.com/VinodPandey14}{GitHub}} \ \ \textbf{\href{https://www.linkedin.com/in/vinod-pandey14/}{LinkedIn}} \ \ \textbf{\href{https://leetcode.com/u/Vinod-Pandey/}{LeetCode}} \\
+\begin{tabular}{@{}l@{}}
+{\LARGE \textbf{Vinod Chandra}} \\[4pt]
+\faEnvelope \ \textbf{\url{itsvinod14@gmail.com}} \\
+\faPhone \ \textbf{+91 7455988459} \\
+\textbf{\href{https://github.com/VinodPandey14}{GitHub}} \ \ \textbf{\href{https://www.linkedin.com/in/vinod-pandey14/}{LinkedIn}} \ \ \textbf{\href{https://leetcode.com/u/Vinod-Pandey/}{LeetCode}} \\
+\end{tabular}
 
-\resheading{\textbf{CAREER OBJECTIVE} }\\[\lsep]
-\\
-\begin{itemize}
-\setlength\itemsep{0.5em}
-\item Enthusiastic and detail-oriented Computer Science student with a solid foundation in algorithms, full-stack development, and machine learning. Passionate about building real-world solutions through efficient coding. Seeking opportunities to grow in a dynamic environment that fosters continuous learning and impactful contributions.
-\end{itemize}
 
 \resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
 \\
@@ -56,53 +50,62 @@ Sep, 2022 - Present & B.TECH in Computer Science & Graphic Era Hill University,D
 2021 & 12^{th}, \ U.B.S.E & Arya Inter College Deghat & 86.00 \% \\
 2019 & 10^{th},\ U.B.S.E & Arya Inter College Gurana & 90.00 \%\\
 \end{tabular}
-\indent \rule{6.8in}{0.4pt}
-
-\resheading{\textbf{EXPERIENCE}}\\[\lsep]
-\\
-\begin{itemize}
-\setlength\itemsep{0.5em}
-\item \textbf{Salesforce Smartbridge Internship (Virtual)} \hfill \textit{[May 2025 – Present]}\\
-Working on real-world cloud-based CRM use-cases using Salesforce tools and platforms. Gaining hands-on experience with custom object creation, workflows, reports, dashboards, and automation through Flow Builder. Developing industry-level understanding of how Salesforce supports business processes and customer relationship management. Improving practical skills in SaaS-based application development and deployment.
-\end{itemize}
 
 \resheading{\textbf{PROJECTS} }\\[\lsep]
-\\
 \begin{itemize}
 \setlength\itemsep{0.5em}
-\item \textbf{\href{https://github.com/VinodPandey14/Handwritten-Character-Recognition}{Handwritten Character Recognition}} (Jan 2025):  Built a CNN model using the EMNIST dataset for accurate handwritten character recognition, with a Flask-based web interface for real-time predictions and optimized data preprocessing.
+
+\item \textbf{\href{https://github.com/VinodPandey14/Handwritten-Character-Recognition}{Handwritten Character Recognition}} (Jan 2025) | Python, Flask, TensorFlow, EMNIST \\
+Built and deployed a CNN-based model using the EMNIST dataset, achieving \textbf{95\% accuracy} across 47 character classes. Designed a Flask-powered web interface for real-time predictions and implemented optimized preprocessing pipelines, improving prediction speed by 30\%.
+
+\item \textbf{\href{https://os-algo.netlify.app/}{OS Algorithm Visualizer}} (Apr 2025) | Python, Flask, React, JavaScript \\
+Developed an interactive platform to visualize core Operating System algorithms such as scheduling, memory allocation, and disk management. Enabled real-time simulations with customizable inputs, improving learners’ conceptual clarity and engagement by 50\%.
+
+\item \textbf{\href{https://mini-compiler.netlify.app/}{Mini Compiler}} (May 2025) | Flask, React, PLY (Python Lex-Yacc) \\
+Created a custom grammar engine supporting lexical, syntax, and semantic analysis, parse tree generation, intermediate code representation (IR), and target code phases. Integrated a React-based UI for interactive compilation and debugging, reducing troubleshooting time by 35\%.
+
+\item \textbf{\href{https://compress-img.netlify.app/}{Image Compressor}} (Sep 2024) | Python, JavaScript \\
+Engineered a web-based image compression tool capable of compressing up to 20 images in one go with minimal quality loss. Deployed on Netlify for cross-device accessibility, resulting in multiple active monthly users.
+\end{itemize}
 
 
-\item \textbf{\href{https://github.com/VinodPandey14/OS-Algorithm-Visualizer}{OS Algorithm Visualizer}} (April 2025):Designed an intuitive web-based tool to visualize key OS algorithms like scheduling, memory, and disk management with real-time simulation and customizable input, built using Flask and React.
-
-\item \textbf{\href{https://github.com/VinodPandey14/Mini-Compiler}{Mini Compiler}} (May 2025):  Developed a custom mini compiler with a dynamic grammar engine and lexical-syntax analysis using Flask and PLY, featuring a React-based interactive UI for compiling user-defined code.
-
-\item \textbf{\href{https://compress-img.netlify.app/}{Image Compressor}} (Sep 2024): Built and deployed a web app for compressing images with minimal quality loss using Python and JavaScript.
 
 \resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
 \begin{itemize}
 \setlength\itemsep{0em}
-\item \noindent \textbf{Languages}: C (proficient), C++ (proficient), Java, Python, JavaScript, HTML, PHP, SQL\\
-\item \noindent \textbf{Tools}: Git \& GitHub, Linux, Windows, Render, Netlify, VS Code, Jupyter Notebooks, \LaTeX\\
-\item \noindent \textbf{Frameworks}: React, NodeJS, Express, Flask, TensorFlow/Keras, scikit-learn
+\item \noindent \textbf{Programming Languages}: C/C++ (proficient), Java, Python, SQL, JavaScript
+
+\item \noindent \textbf{Tools \& Frameworks}: Git \& GitHub, AutoCAD, Jupyter Notebook, MySQL, VS Code, Google Colab,\LaTeX
+
+\item \noindent \textbf{Machine Learning Tools}: scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow, Pickle, Keras, Flask
+
+\item \noindent \textbf{Web Development Skills}: HTML5, CSS3, JavaScript, React.js, Node.js, RESTful APIs, Flask
+
+\item \noindent \textbf{Coursework}: Data Structures \& Algorithms, OOPS, Operating Systems, DBMS, Machine Learning, Compiler Design, Automata
 \end{itemize}
 
-\resheading{\textbf{SCHOLASTIC ACHIEVEMENTS} }\\[\lsep]  
-\\  
+\resheading{\textbf{ACHIEVEMENTS} }\\[\lsep]  
 \begin{itemize}  
 \setlength\itemsep{0em}  
-\item \textbf{LeetCode 400+ Problems Solved:} Mastered data structures and algorithms by solving 400+ problems on LeetCode.  
-\item \textbf{University-Level Coding Competitions:} Secured top positions in various algorithmic contests at Graphic Era Hill University.  
+\item \textbf{LeetCode 400+ Problems Solved:} demonstrating advanced proficiency in data structures and algorithms.
+\item \textbf{Coding Participation -} Participated in multiple coding rounds of Amazon, Flipkart, Adobe and Unstop
 \item \textbf{Professional Presence:} Actively contributing to open-source projects on GitHub and engaging with the tech community on LinkedIn through insights, collaborations, and networking.
+\item \textbf{Google Cloud Computing} NPTEL- Successfully passed a government certification exam in GCP in Oct 2023.
 \end{itemize}
 
 \resheading{\textbf{CERTIFICATIONS} }\\[\lsep]
-\\
 \begin{itemize}
 \setlength\itemsep{0em}
 \item \textbf{Google Cloud Computing: NPTEL Swayam} - Google Cloud
-\item \textbf{Deep Learning Fundaments} - Elective Core
+\item \textbf{Deep Learning Fundamentals} - Elective Core
 \item \textbf{Data Analytics Course} - Coursera
+\end{itemize}
+
+\resheading{\textbf{ POSITION OF RESPONSIBILITY} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \textbf{Project-Based Learning (PBL) Group Leader (Twice) - } 
+Led peers through two full-cycle PBL projects, managing tasks, timelines, and documentation. Maintained regular communication with mentors to align direction, integrate feedback, and ensure successful project outcomes.
 \end{itemize}
 
 \end{document}
